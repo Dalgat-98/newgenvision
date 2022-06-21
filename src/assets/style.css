@@ -1,0 +1,80 @@
+.container {
+  max-width: 1200px;
+  margin: 40px auto 0;
+}
+
+.courses {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+span {
+  display: inline-block;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.courses__param {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.courses__param div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.courses__param input {
+  width: 100px;
+}
+
+.courses__buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses__param-reset {
+  width: 100px;
+  height: 30px;
+  color: #000;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  background: none;
+  border: 1px solid black;
+}
+
+.courses__param-select {
+  width: 180px;
+  height: 30px;
+}
+
+.courses__list {
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.coursers__list-item div {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid green;
+  margin-bottom: 5px;
+}
+
+.coursers__list-item div label:first-child {
+  display: inline-block;
+  width: 200px;
+  margin: 5px 5px 5px 0;
+}
+
+.coursers__list-item div label:last-child {
+  display: inline-block;
+  width: 100px;
+  margin: 5px 5px 5px 0;
+}
